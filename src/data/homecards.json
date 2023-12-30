@@ -1,0 +1,282 @@
+{
+    "data": [
+      {
+        "title": "Projects",
+        "value": [
+          {
+            "id": 1,
+            "title": "Automation using Azure DevOps:",
+            "description": "The purpose of this project is to implement a continuous integration/continuous delivery (CI/CD) pipeline for a React JS application using Azure DevOps, Terraform, Docker and Kubernetes. The pipeline will automate the building, testing, and deployment of the application to a Kubernetes cluster provisioned in Azure using Terraform.",
+            "projectRoute": "https://github.com/KarthikSaladi047/Azure-Pipeline-Project",
+            "githubUrl": "https://github.com/KarthikSaladi047/Azure-Pipeline-Project",
+            "badgeTitle": [
+              "Azure DevOps",
+              "ReactJS",
+              "Docker",
+              "Kubernetes",
+              "Terraform"
+            ],
+            "initialColor": "#56CCF2",
+            "finalColor": "#2F80ED",
+            "language": "Azure DevOps"
+          },
+          {
+            "id": 2,
+            "title": "Kunernetes from Scratch",
+            "description": "Building a Kubernetes cluster from scratch! Setting up the control plane components, etcd, configuring worker nodes, deploying container runtime and generating TLS certificates & kube-config files for secure communication between cluster components.",
+            "projectRoute": "https://github.com/KarthikSaladi047/Kubernetes-from-Scratch-Project",
+            "githubUrl": "https://github.com/KarthikSaladi047/Kubernetes-from-Scratch-Project",
+            "badgeTitle": [
+              "Kubernetes",
+              "Ubuntu",
+              "ContainerD",
+              "TSL certificates"
+            ],
+            "initialColor": "#373B44",
+            "finalColor": "#4286f4",
+            "language": "Kubernetes"
+          },
+          {
+            "id": 3,
+            "title": "Automated Deployment and Configuration of a Web Server",
+            "description": "This project focuses on building and maintaining a configuration management system using Ansible and Terraform to provision a Linux VM on Azure. The goal of this project is to automate the deployment and configuration of a Apache web server on Azure, making it easier to manage and scale the system.",
+            "projectRoute": "https://github.com/KarthikSaladi047/Ansible-Project",
+            "githubUrl": "https://github.com/KarthikSaladi047/Ansible-Project",
+            "badgeTitle": ["Ansible", "Terraform", "Bash", "Azure"],
+            "initialColor": "#f12711",
+            "finalColor": "#f5af19",
+            "language": "Ansible"
+          },
+          {
+            "id": 4,
+            "title": "Automation using Jenkins and Scripting",
+            "projectRoute": "https://github.com/KarthikSaladi047/maven-pipeline",
+            "githubUrl": "https://github.com/KarthikSaladi047/maven-pipeline",
+            "description": "Automation of building, testing & deploying a Java Application using Maven, Jenkins, Docker and Shell Scripting.",
+            "badgeTitle": ["Jenkins", "Maven", "Docker", "Shell scripting"],
+            "initialColor": "#11998e",
+            "finalColor": "#38ef7d",
+            "language": "Jenkins & Scripting"
+          },
+          {
+            "id": 5,
+            "title": "Automation using Jenkins",
+            "projectRoute": "https://github.com/KarthikSaladi047/Jenkins-Project",
+            "description": "This project aims to demonstrate the implementation of a CI/CD pipeline for a simple Reactjs application using Jenkins. The pipeline includes the following stages: 'Build' --> Compile and test the application code. | 'Infra Provisioning' --> Using terraform provision Azure app service.| 'Deploy' --> Deploy the application to a Production environment.",
+            "badgeTitle": ["Jenkins", "Git", "Docker", "Terraform", "Bash"],
+            "githubUrl": "https://github.com/KarthikSaladi047/Jenkins-Project",
+            "initialColor": "#f05053",
+            "finalColor": "#e1eec3",
+            "language": "Jenkins & Docker"
+          },
+          {
+            "id": 6,
+            "title": "CI/CD using Github Actions and Argo CD",
+            "projectRoute": "https://github.com/KarthikSaladi047/argocd-project",
+            "description": "This project aims to demonstrate the implementation of a CI/CD pipeline for deploying a .NET application using GitHub Actions as the Continues Integration pipeline and ArgoCD for continuous deployment on a Minikube cluster (k8s cluster).",
+            "badgeTitle": ["Github Actions", "Argo CD", "Docker", "Kubernetes", "Github", "Docker Hub"],
+            "githubUrl": "https://github.com/KarthikSaladi047/argocd-project",
+            "initialColor": "#56CCF2",
+            "finalColor": "#2F80ED",
+            "language": "Github Actions & Argo CD"
+          }
+        ],
+        "route": "/projects",
+        "initialColor": "#56CCF2",
+        "finalColor": "#2F80ED",
+        "icon": "GiThorHammer"
+      },
+      {
+        "title": "Skills",
+        "value": [
+          {
+            "title": "Azure Devops",
+            "level": "Advance"
+          },
+          {
+            "title": "Kubernetes",
+            "level": "Advance"
+          },
+          {
+            "title": "Terraform",
+            "level": "Advance"
+          },
+          {
+            "title": "Openstack",
+            "level": "Intermediate"
+          },
+          {
+            "title": "Azure, AWS, GCP & OCI Clouds",
+            "level": "Advance"
+          },
+          {
+            "title": "Ansible",
+            "level": "Advance"
+          },
+          {
+            "title": "Jenkins",
+            "level": "Advance"
+          },
+          {
+            "title": "Rust & Python",
+            "level": "Intermediate"
+          },
+          {
+            "title": "React JS & Java Script",
+            "level": "Advance"
+          },
+          {
+            "title": "Linux & Bash",
+            "level": "Advance"
+          },
+          {
+            "title": "Elastic Search",
+            "level": "Intermediate"
+          },
+          {
+            "title": "Prometheus",
+            "level": "Intermediate"
+          }
+        ],
+        "route": "/languages",
+        "initialColor": "#373B44",
+        "finalColor": "#4286f4",
+        "icon": "SiAzuredevops"
+      },
+      {
+        "title": "Hobbies & Interest",
+        "value": [
+          {
+            "title": "Blogging",
+            "hobbyIcon": "FaPuzzlePiece"
+          },
+          {
+            "title": "Cloud Computing",
+            "hobbyIcon": "MdComputer"
+          },
+          {
+            "title": "Travelling",
+            "hobbyIcon": "MdCardTravel"
+          },
+          {
+            "title": "Exploring New Technologies",
+            "hobbyIcon": "FaNetworkWired"
+          },
+          {
+            "title": "Listing to Music",
+            "hobbyIcon": "FaGuitar"
+          },
+          {
+            "title": "Getting Cloud Certified",
+            "hobbyIcon": "FaCloud"
+          }
+        ],
+        "route": "#",
+        "initialColor": "#f12711",
+        "finalColor": "#f5af19",
+        "icon": "FaGuitar"
+      },
+      {
+        "title": "Education",
+        "value": [
+          {
+            "title": "SRKR Engineering College",
+            "duration": "2018-2021",
+            "location_city": "Bhimavaram",
+            "location_state": "Andhra Pradesh",
+            "location_country": "INDIA",
+            "description": "Bachelor of Technology",
+            "sec_details": "Mechanical Engineering",
+            "color": "#fef54b",
+            "text": "#1d1d1d"
+          },
+          {
+            "title": "Andhra Polytechnic",
+            "duration": "2015-2018",
+            "location_city": "Kakinada",
+            "location_state": "Andhra Pradesh",
+            "location_country": "INDIA",
+            "description": "Diploma",
+            "sec_details": "Automobile Engineering",
+            "color": "#fef54b",
+            "text": "#1d1d1d"
+          },
+          {
+            "title": "DAV Model School",
+            "duration": "2013 - 2015",
+            "location_city": "Kovvur",
+            "location_state": "Andhra Pradesh",
+            "location_country": "INDIA",
+            "description": "High school",
+            "sec_details": " ",
+            "color": "#ffe54a",
+            "text": "#1d1d1d"
+          }
+        ],
+        "route": "#",
+        "initialColor": "#007991",
+        "finalColor": "#78ffd6",
+        "icon": "GiBookshelf"
+      },
+      {
+        "title": "Contact",
+        "value": [
+          {
+            "title": "instagram",
+            "link": ""
+          },
+          {
+            "title": "linkedin",
+            "link": ""
+          },
+          {
+            "title": "github",
+            "link": ""
+          },
+          {
+            "title": "instagram",
+            "link": ""
+          }
+        ],
+        "route": "#",
+        "initialColor": "#11998e",
+        "finalColor": "#38ef7d",
+        "icon": "TiSocialAtCircular"
+      },
+      {
+        "title": "Work Experience",
+        "value": [
+          {
+            "title": "Platform9 Systems - Cloud Support Engineer",
+            "duration": "Oct 2023 - Present",
+            "location": "Pune, Maharastra State, IN",
+            "url": "http://platform9.com/",
+            "description": [
+              "Managed and optimized SaaS infrastructure built on OpenStack and Kubernetes.",
+              "Proactively resolved incidents to ensure uninterrupted customer service.",
+              "Conducted troubleshooting and performance tuning for infrastructure components.",
+              "Implemented security measures, automation, and documentation best practices.",
+              "Prepared and tested disaster recovery plans and ensured compliance."
+            ]
+          },
+          {
+            "title": "Cognizant Technology Solutions - Program Analyst",
+            "duration": "Dec 2021 - Oct 2023",
+            "location": "Hyderabad, Telangana State, IN",
+            "url": "http://cognizant.com/",
+            "description": [
+              "Assist in creating and managing the infrastructure required for Dev, QA, and Prod using Terraform.",
+              "Support the deployment and management of containerized applications using Kubernetes.", 
+              "Assist in setting up Kubernetes clusters, managing pod deployments, and configuring auto-scaling and load balancing.",
+              "Support the implementation and maintenance of CI/CD pipelines using tools like Jenkins and Azure Pipelines.",
+              "Contribute to the configuration management process by using tools like Ansible."
+            ]
+          }
+        ],
+        "route": "#",
+        "initialColor": "#e1eec3",
+        "finalColor": "#f05053",
+        "icon": "GoRepo"
+      }
+    ]
+  }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
+import ProfilePic from '../assets/Image/pic.png';
 
 function LeftText() {
 	return (
@@ -27,7 +28,7 @@ function LeftText() {
 						/>
 				</p>
 					</div>
-					<img src="https://avatars.githubusercontent.com/u/105864615?v=4" alt="Karthik Saladi" className="rounded-image" />
+					<img src={ProfilePic} alt="Karthik Saladi" className="rounded-image" />
 				</div>
 				<br></br>
 				<div className='left_about'>

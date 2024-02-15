@@ -82,6 +82,7 @@ body,
 
     .text-content {
         text-align: center;
+	font-size: 14px; /* Reduce font size for smaller screens */
     }
 
     .rounded-image {

@@ -82,13 +82,18 @@ body,
 
     .text-content {
         text-align: center;
-	font-size: 14px; /* Reduce font size for smaller screens */
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+
+    .left_about h5 {
+        font-size: 12px; /* Reduce font size for the 'h5' elements in the left_about section */
     }
 
     .rounded-image {
         display: none; /* Hide profile picture on mobile */
     }
 }
+
 
 .navbar_logo_container {
 	flex: 1;

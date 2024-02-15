@@ -13,13 +13,11 @@ function LeftText() {
 						<p className='animated_text'>
 					<TypeAnimation
 						sequence={[
-							'I am a Cloud Support Engineer',
+							'A Cloud Support Engineer',
 							1000, 
-							'I also love Web Development',
+							'Love Web Development',
 							1000,
-							'I am a Critical Thinker',
-							1000,
-							'I am a Cloud & DevOps Enthusiast',
+							'Cloud & DevOps Enthusiast',
 							1000
 						]}
 						wrapper="span"

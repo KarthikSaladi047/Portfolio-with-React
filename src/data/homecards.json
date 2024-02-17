@@ -79,6 +79,22 @@
             "initialColor": "#56CCF2",
             "finalColor": "#2F80ED",
             "language": "Github Actions & Argo CD"
+          },
+          {
+            "id": 7,
+            "title": "Monitoring with Prometheus",
+            "description": "Develop a comprehensive monitoring and alerting system that enables real-time visibility into the health and performance of applications and infrastructure components. By harnessing the power of Prometheus for metric collection, Grafana for visualization, and Alertmanager for alerting, the system empowers users to gain actionable insights and proactively respond to potential issues.",
+            "projectRoute": "https://github.com/KarthikSaladi047/Prometheus-Monitoring",
+            "githubUrl": "https://github.com/KarthikSaladi047/Prometheus-Monitoring",
+            "badgeTitle": [
+              "Prometheus",
+              "Grafana",
+              "Docker",
+              "Ubuntu"
+            ],
+            "initialColor": "#373B44",
+            "finalColor": "#4286f4",
+            "language": "Prometheus"
           }
         ],
         "route": "/projects",

@@ -92,8 +92,8 @@
               "Docker",
               "Ubuntu"
             ],
-            "initialColor": "#373B44",
-            "finalColor": "#4286f4",
+            "initialColor": "#11998e",
+            "finalColor": "#38ef7d",
             "language": "Prometheus"
           }
         ],

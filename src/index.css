@@ -59,7 +59,7 @@ body,
 }
 
 .LeftSec {
-	background-image: url('/bg.jpeg');
+	background-image: url('../public/bg.jpeg');
 	color: #fff;
 	z-index: 999;
 	max-width: 50%;

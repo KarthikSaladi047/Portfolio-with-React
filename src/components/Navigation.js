@@ -28,10 +28,6 @@ function Navigation() {
 						<Nav.Link>
 							<Button
 								variant='light'
-								style={{
-									borderRadius: '4px 0 0 4px',
-									borderRight: '1px solid rgba(0,0,0,0.5)',
-								}}
 								onClick={() => {
 									setShowResumeModal(true)
 								}}

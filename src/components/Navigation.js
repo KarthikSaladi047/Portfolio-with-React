@@ -1,19 +1,23 @@
-import {Button, Nav, Navbar} from 'react-bootstrap'
-import {FaDownload, FaGithub, FaLinkedin} from 'react-icons/fa'
-import React, {useState} from 'react'
-
+import { Button, Nav, Navbar } from 'react-bootstrap'
+import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa'
+import React, { useState } from 'react'
 import PortfolioLogo from '../assets/Image/logo.svg'
 import loadable from '@loadable/component'
+import './Navigation.css'
 
 const ResumeModal = loadable(() => import('./ResumeModal'))
-// import ResumeModal from "./ResumeModal";
 
 function Navigation() {
 	const [showResumeModal, setShowResumeModal] = useState(false)
 
 	return (
 		<React.Fragment>
-			<Navbar variant='dark' expand='lg' fixed='top' className='nvabar-custon'>
+			<Navbar
+				variant='dark'
+				expand='lg'
+				fixed='top'
+				className='navbar-custom'
+			>
 				<a href='/' className='navbar_logo_container'>
 					<img src={PortfolioLogo} className='navbar_logo' alt='navbar_logo' />
 					<span>Karthik Saladi</span>
@@ -28,6 +32,10 @@ function Navigation() {
 						<Nav.Link>
 							<Button
 								variant='light'
+								style={{
+									borderRadius: '4px 0 0 4px',
+									borderRight: '1px solid rgba(0,0,0,0.5)',
+								}}
 								onClick={() => {
 									setShowResumeModal(true)
 								}}
@@ -78,7 +86,7 @@ function Navigation() {
 			<ResumeModal
 				showResumeModal={showResumeModal}
 				closeModal={() => {
-					setShowResumeModal(!showResumeModal)
+					setShowResumeModal(false)
 				}}
 			/>
 		</React.Fragment>

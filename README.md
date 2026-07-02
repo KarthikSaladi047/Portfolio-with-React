@@ -1,4 +1,4 @@
-🧳 React Based Portfolio: https://karthik-saladi.netlify.app/
+🧳 React Based Portfolio: https://karthik-saladi-portfolio.netlify.app/
 
 # Getting Started with Create React App
 
